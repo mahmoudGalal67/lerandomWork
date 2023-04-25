@@ -1,0 +1,129 @@
+  
+  .header-logo{
+  font-family: 'Portrait', Georgia, serif;
+  }
+
+.header{
+  .logo-image{
+   position: absolute;
+   top: -20px;
+   left: 30px;
+   z-index: 10;
+    @media screen and (max-width: 1150px){
+    top: -11px;
+    width: 126px;
+  }
+  @media screen and (max-width: 850px){
+    top: -11px;
+    width: 126px;
+  }
+  @media screen and (max-width: 700px){
+    top: -11px;
+    width: 110px;
+  }
+  @media screen and (max-width: 600px){
+    top: 3px;
+    left: 0;
+    width:90px;
+  }
+  }
+  .menu{
+    font-size: 15px;
+  }
+        svg{
+        width: 25px;
+        height: 25px;
+      }
+.header-logo{
+padding:45px 0;
+width: 100%;
+text-align: center;
+
+  @media screen and (max-width: 1150px){
+    font-size: 46px;
+  }
+  @media screen and (max-width: 850px){
+    font-size: 36px;
+  }
+  @media screen and (max-width: 700px){
+   font-size: 28px;
+  }
+  @media screen and (max-width: 500px){
+   font-size: 18px;
+  }
+      }
+  .right{
+    .header-icons{
+      svg{
+        width: 35px;
+        height: 35px;
+        @media screen and (max-width: 700px) {
+        width: 20px;
+        height: 20px;
+        }
+      }
+    }
+    .cart-count{
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      right: -3px;
+      border-radius: 50%;
+      top: -6px;
+      bottom: 3px;
+
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 20px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      color: #FFFFFF;
+      background-color: red;
+
+      @media screen and (max-width: 700px){
+        width: 12px;
+        height: 12px;
+        top: -4px;
+        right: 0;
+      }
+    }
+  }
+}
+
+.header h1{
+  font-weight: bold;
+  // @media screen and (max-width: 1150px){
+  //   font-size: 45px;
+  // }
+  // @media screen and (max-width: 720px){
+  //   font-size: 35px;
+  // }
+  // @media screen and (max-width: 560px){
+  //   font-size: 28px;
+  // }
+  // @media screen and (max-width: 450px){
+  //   font-size: 18px;
+  // }
+}
+#menuToggle,
+#menuToggleR
+{
+  @media screen and (max-width: 1150px){
+    top: 58px;
+  }
+  @media screen and (max-width: 850px){
+    top: 58px;
+  }
+  @media screen and (max-width: 700px){
+    top: 48px;
+  }
+  @media screen and (max-width: 600px){
+    top: 48px;
+    right: 20px;
+  }
+}

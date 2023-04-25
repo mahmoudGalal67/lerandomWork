@@ -1,0 +1,27 @@
+.product-details{
+  ol.info{
+    list-style:circle;
+  }
+  .imageOffer{
+    min-width: 200px;
+  }
+  .category-item,
+  .similar-item{
+    display: flex !important;
+  }
+  .main-image{
+    height: 700px;
+    @media screen and (max-width:770px) {
+      height: 500px;
+    }
+  }
+  .guide{
+    width: 100%;
+  }
+  .image-guide{
+    top: 50%;
+    left: 13%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+  }
+}
